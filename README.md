@@ -23,10 +23,6 @@ By dynamically shifting airflow output to **45% of peak capacity** during low-oc
   * **Net Present Value (NPV):** Project outlays discounted over a 5-year mining lifecycle using a 12% Cost of Capital.
   * **Payback Period Estimation:** Calculates exact capital recovery horizons based on real cash-flow margins.
   * **Maximum Demand & Power Factor Sensitivity:** Models specific penalty zones based on peak kVA spikes to optimize overall system billing.
-
-## Performance Analysis & Visualizations
-The model evaluates active mine shift profiles against peak and off-peak rate vectors, compiling detailed metrics shown below:
-
 ## Performance Analysis & Visualizations
 The model evaluates active mine shift profiles against peak and off-peak rate vectors, compiling detailed metrics shown below:
 
@@ -34,9 +30,9 @@ The model evaluates active mine shift profiles against peak and off-peak rate ve
 * **Optimized VoD Opex Engine:** BWP 13,162.82 / Day
 * **Net Daily Financial Savings:** BWP 2,308.18
 * **Estimated Monthly Energy Savings:** BWP 70,399.47
-* **Net Monthly Demand Cost Variance:** BWP -35,544.89
-* **Project Investment Payback Horizon:** 20.5 Months
-* **5-Year Asset Net Present Value (NPV @ 12%):** BWP 723,228.09
+* **Net Monthly Demand Cost Variance:** BWP -7.64 (BERA Maximum Demand Penalty Neutralized)
+* **Project Investment Payback Horizon:** 12.8 Months
+* **5-Year Asset Net Present Value (NPV @ 12%):** BWP 2,024,426.32
 
 ![VoD Performance Optimization Dynamics](vod_savings_chart.png)
 
