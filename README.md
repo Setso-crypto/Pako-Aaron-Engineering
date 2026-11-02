@@ -22,7 +22,8 @@ By dynamically shifting airflow output to **45% of peak capacity** during low-oc
 * **Capital Budgeting Metrics:** Upfront automated engineering deployment costs are systematically evaluated using high-level quantitative project metrics:
   * **Net Present Value (NPV):** Project outlays discounted over a 5-year mining lifecycle using a 12% Cost of Capital.
   * **Payback Period Estimation:** Calculates exact capital recovery horizons based on real cash-flow margins.
-  * **Maximum Demand & Power Factor Sensitivity:** Models specific penalty zones based on peak kVA spikes to optimize overall system billing.
+  * **Maximum Demand & Power Factor Sensitivity:** Models specific penalty zones based on peak kVA spikes to optimize overall system billing and integrate Peak Shaving automation.
+
 ## Performance Analysis & Visualizations
 The model evaluates active mine shift profiles against peak and off-peak rate vectors, compiling detailed metrics shown below:
 
@@ -30,7 +31,7 @@ The model evaluates active mine shift profiles against peak and off-peak rate ve
 * **Optimized VoD Opex Engine:** BWP 13,162.82 / Day
 * **Net Daily Financial Savings:** BWP 2,308.18
 * **Estimated Monthly Energy Savings:** BWP 70,399.47
-* **Net Monthly Demand Cost Variance:** BWP -7.64 (BERA Maximum Demand Penalty Neutralized)
+* **Net Monthly Demand Cost Variance:** BWP -7.64 (BERA Maximum Demand Penalty Neutralized via Peak Shaving)
 * **Project Investment Payback Horizon:** 12.8 Months
 * **5-Year Asset Net Present Value (NPV @ 12%):** BWP 2,024,426.32
 
@@ -47,4 +48,3 @@ python vod_model.py
 
 ## Licensing & IP Statement
 Copyright (c) 2026. All rights reserved. Licensed under the GNU General Public License v3.0 (GPL-3.0). Code artifacts and quantitative asset optimization models are open to public evaluation and review for academic, recruitment, and corporate validation purposes.
-
