@@ -22,9 +22,7 @@ By dynamically shifting airflow output to **45% of peak capacity** during low-oc
 * **Capital Budgeting Metrics:** Upfront automated engineering deployment costs are systematically evaluated using high-level quantitative project metrics:
   * **Net Present Value (NPV):** Project outlays discounted over a 5-year mining lifecyle using a 12% Cost of Capital.
   * **Payback Period Estimation:** Calculates exact capital recovery horizons based on real cash-flow margins.
-# =================================================================
-# UPDATE: BERA STATUTORY MAXIMUM DEMAND & POWER FACTOR PENALTY ANALYSIS
-# =================================================================
+
 # 1. Isolate the absolute highest hourly kVA draw from the daily dataframe
 peak_traditional_kva = df['Traditional_Apparent_kVA'].max()
 peak_vod_kva = df['VoD_Apparent_kVA'].max()
@@ -57,10 +55,6 @@ for pf, fee in pf_analysis_metrics:
     penalty_note = " (BERA Penalty Zone)" if pf < 0.85 else " (Compliant Zone)"
     print(f"Operating PF: {pf:.2f} -> Projected Monthly Demand Charge: BWP {fee:,.2f}{penalty_note}")
 print("=============================================================")
-
-# ⚠️ INTEGRATION ADJUSTMENT FOR YOUR FINANCE LAYER:
-# To make your capital budgeting realistic, update your annual energy savings
-# calculation to include the monthly demand tariff savings vector:
 annual_energy_savings = (daily_savings * 365) + (monthly_demand_savings * 12)
 
 ## Performance Analysis & Visualizations
