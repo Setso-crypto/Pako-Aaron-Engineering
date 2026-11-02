@@ -22,7 +22,7 @@ By dynamically shifting airflow output to **45% of peak capacity** during low-oc
 * **Capital Budgeting Metrics:** Upfront automated engineering deployment costs are systematically evaluated using high-level quantitative project metrics:
   * **Net Present Value (NPV):** Project outlays discounted over a 5-year mining lifecycle using a 12% Cost of Capital.
   * **Payback Period Estimation:** Calculates exact capital recovery horizons based on real cash-flow margins.
-  * **Maximum Demand & Power Factor Sensitivity:** Models specific penalty zones based on peak kVA spikes to optimize overall system billing and integrate Peak Shaving automation.
+  * **Maximum Demand & Power Factor Sensitivity:** Models specific penalty zones based on peak kVA spikes to optimize overall system billing and integrates localized Battery Energy Storage System (BESS) peak-shaving automation logic.
 
 ## Performance Analysis & Visualizations
 The model evaluates active mine shift profiles against peak and off-peak rate vectors, compiling detailed metrics shown below:
