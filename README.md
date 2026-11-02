@@ -27,11 +27,16 @@ By dynamically shifting airflow output to **45% of peak capacity** during low-oc
 ## Performance Analysis & Visualizations
 The model evaluates active mine shift profiles against peak and off-peak rate vectors, compiling detailed metrics shown below:
 
+## Performance Analysis & Visualizations
+The model evaluates active mine shift profiles against peak and off-peak rate vectors, compiling detailed metrics shown below:
+
 * **Baseline Traditional Opex:** BWP 15,471.00 / Day
-* **Optimized VoD Opex Engine:** BWP 14,128.67 / Day
-* **Net Annual Operational Cash Inflow:** ~BWP 454,950.56
-* **Project Investment Payback Horizon:** ~17.1 Months
-* **5-Year Asset Net Present Value (NPV @ 12%):** BWP 989,994.97
+* **Optimized VoD Opex Engine:** BWP 13,162.82 / Day
+* **Net Daily Financial Savings:** BWP 2,308.18
+* **Estimated Monthly Energy Savings:** BWP 70,399.47
+* **Net Monthly Demand Cost Variance:** BWP -35,544.89
+* **Project Investment Payback Horizon:** 20.5 Months
+* **5-Year Asset Net Present Value (NPV @ 12%):** BWP 723,228.09
 
 ![VoD Performance Optimization Dynamics](vod_savings_chart.png)
 
